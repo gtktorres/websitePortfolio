@@ -54,7 +54,7 @@ const Projects = () => {
             
           <Row className="Projects">
             <div>
-              <h1>Projects</h1>
+              <h5>Projects</h5>
             </div>
           </Row>
           <Row><div className="Border">
