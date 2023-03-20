@@ -9,9 +9,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div>
           <Container>
-            <Row style={{ height: "10rem", width: "auto" }}></Row>
           
             <Row><h1>Guevara Torres</h1></Row>  
 
@@ -31,9 +29,6 @@ const About = () => {
                       Home
                     </Button>
                   </Link>
-                </Row>
-
-                <Row>
                   <Link to="/projects">
                     <Button
                       className="Button2"
@@ -43,9 +38,6 @@ const About = () => {
                       Projects
                     </Button>
                   </Link>
-                </Row>
-
-                <Row>
                   <Contact />
                 </Row>
               </Col>
@@ -60,13 +52,11 @@ const About = () => {
                 <p>
                   I'm a Lehman college graduate with a Bachelor of Science
                   in Computer Science degree, with an interest in AI/ML and Web applicatons.
-
                 </p>
               </div>
             </Row>
             
           </Container>
-        </div>
   );
 }
 

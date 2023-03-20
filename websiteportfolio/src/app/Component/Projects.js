@@ -34,9 +34,6 @@ const Projects = () => {
                     Home
                   </Button>
             </Link>
-          </Col>      
-
-          <Col>    
             <Link to="/about">
                   <Button
                     className="Button1"
@@ -46,12 +43,8 @@ const Projects = () => {
                     About Me
                   </Button>
             </Link>
-          </Col>   
-
-          <Col>    
             <Contact />
-          </Col>    
-            
+          </Col> 
           <Row className="Projects">
             <div>
               <h5>Projects</h5>
