@@ -1,6 +1,6 @@
 "use client"; // this is a client component 👈🏽
 import React from "react";
-import "../App.css"
+import "../Client.css"
 import Portrait from "../portrait.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";

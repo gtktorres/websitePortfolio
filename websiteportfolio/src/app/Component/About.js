@@ -1,6 +1,6 @@
 "use client"; // this is a client component 👈🏽
 import React from "react";
-import "../App.css"
+import "../Client.css"
 import Portrait from "../portrait.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -50,8 +50,8 @@ const About = () => {
             <Row>
               <div className="Border">
                 <p>
-                  I'm a Lehman college graduate with a Bachelor of Science
-                  in Computer Science degree, with an interest in AI/ML and Web applicatons.
+                  I'm a Software Developer with a Bachelor of Science
+                  in Computer Science degree, with an interest in Fullstack applications.
                 </p>
               </div>
             </Row>
