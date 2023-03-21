@@ -1,6 +1,6 @@
 "use client"; // this is a client component 👈🏽
 import React from "react";
-import "../App.css"
+import "../Client.css"
 import Portrait from "../portrait.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -34,9 +34,6 @@ const Projects = () => {
                     Home
                   </Button>
             </Link>
-          </Col>      
-
-          <Col>    
             <Link to="/about">
                   <Button
                     className="Button1"
@@ -46,15 +43,11 @@ const Projects = () => {
                     About Me
                   </Button>
             </Link>
-          </Col>   
-
-          <Col>    
             <Contact />
-          </Col>    
-            
+          </Col> 
           <Row className="Projects">
             <div>
-              <h1>Projects</h1>
+              <h5>Projects</h5>
             </div>
           </Row>
           <Row><div className="Border">

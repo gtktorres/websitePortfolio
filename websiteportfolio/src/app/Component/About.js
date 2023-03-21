@@ -1,6 +1,6 @@
 "use client"; // this is a client component 👈🏽
 import React from "react";
-import "../App.css"
+import "../Client.css"
 import Portrait from "../portrait.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -9,9 +9,7 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div>
           <Container>
-            <Row style={{ height: "10rem", width: "auto" }}></Row>
           
             <Row><h1>Guevara Torres</h1></Row>  
 
@@ -31,9 +29,6 @@ const About = () => {
                       Home
                     </Button>
                   </Link>
-                </Row>
-
-                <Row>
                   <Link to="/projects">
                     <Button
                       className="Button2"
@@ -43,9 +38,6 @@ const About = () => {
                       Projects
                     </Button>
                   </Link>
-                </Row>
-
-                <Row>
                   <Contact />
                 </Row>
               </Col>
@@ -58,15 +50,13 @@ const About = () => {
             <Row>
               <div className="Border">
                 <p>
-                  I'm a Lehman college graduate with a Bachelor of Science
-                  in Computer Science degree, with an interest in AI/ML and Web applicatons.
-
+                  I'm a Software Developer with a Bachelor of Science
+                  in Computer Science degree, with an interest in Fullstack applications.
                 </p>
               </div>
             </Row>
             
           </Container>
-        </div>
   );
 }
 
